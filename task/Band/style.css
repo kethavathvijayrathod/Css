@@ -1,0 +1,102 @@
+body{
+      margin: 0%;
+      padding: 0%;
+}
+.con{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+
+}
+.con2{
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+}
+.child{
+    color: white;
+}
+.con3{
+    color: white;
+    padding: 10px;
+    
+}
+h2,h3{
+    text-align: center;
+}
+p{
+    width: 70%;
+    margin:auto;
+
+}
+.con4{
+    width: 80%;
+    margin: auto;
+}
+.con5{
+    display: flex;
+    justify-content: space-around;
+}
+.chil{
+    font-weight: bold;
+}
+.con6{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.con7{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 5%;
+}
+.con8{
+    text-align: center;
+}
+.sub{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.poster{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    gap: 35px;
+    padding-bottom: 70px;
+}
+.c{
+    
+    width: 33% ;
+    background-color: white;
+    height: 350px;
+}
+.c img{
+    width: 100%;
+}
+.frm{
+    width: 100%;
+    margin-left: 35%;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.map img {
+    width: 100%;
+
+}
+.foot{
+    margin-left: 40%;
+    margin-top: 10px;
+}
+.foot p{
+    margin-left: 0;
+    font-size: x-large;
+}

@@ -1,0 +1,31 @@
+.container{
+    /* border :2px solid red; */
+    width: 1300px;
+    /* height: 700px; */
+    margin: auto;
+}
+.child-1{
+    display: inline-block;
+    /* border: 2px solid green; */
+    width: 500px;
+    /* height: 600px; */
+    padding-right: 30px;
+}
+.child-2{
+    display: inline-block;
+    vertical-align: top;
+    /* border: 2px solid green; */
+    width: 500px;
+    /* height: 600px; */
+    font-size: larger;
+}
+img{
+    width: 100%;
+}
+p,h2{
+    text-align: center;
+}
+.p{
+    text-align: left;
+}
+
