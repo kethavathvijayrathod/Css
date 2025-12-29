@@ -1,0 +1,82 @@
+.container{
+/* border: 2px solid black; */
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.subcon{
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    /* margin: 10px; */
+    display: flex;
+    width: 60% ;
+    justify-content: space-around;
+    padding: 5px;
+    padding-top: 15px;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+
+}
+p{
+   font-size: small ;
+}
+
+
+.child {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    justify-content: center;  
+}
+.it1{
+    display: flex;
+}
+.child7{
+ margin-bottom: 40px;;
+}
+.child4 ion-icon{
+    color: #0ff30f;
+}
+.subcon2{
+    margin:0px;
+    width: 30%;
+    display: flex;
+    /* border: 3px solid; */
+    height: 40px;
+    
+
+}
+.box{
+    /* border: 2px solid green; */
+    padding: 2px;
+    width: 70%;
+    background-color: rgb(8, 240, 8);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 20px ;
+}
+.b2 p,.bb2 p{
+    font-size: large;
+}
+.b1 ion-icon,.b2 ion-icon{
+    font-size: x-large;
+}
+.box2{
+    /* border: 2px solid green; */
+    padding: 2px;
+    width: 30%;
+    background-color: red;
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-bottom-right-radius: 20px ;
+}
+.bb1{
+    padding-top: 5px;
+}
