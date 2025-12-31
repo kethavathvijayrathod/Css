@@ -1,0 +1,40 @@
+.container{
+  /* border: 3px solid rgb(244, 133, 22); */
+  width: 800px;
+  /* height: 826px; */
+
+  display: flex;
+}
+.row{
+  /* border: 2px solid red; */
+  height: 100px;
+  width: 100%;
+
+  display: flex;
+}
+.box{
+  border: 1px solid #1F3C88;
+  width: 100px;
+  height: 100px;
+ 
+}
+.E{
+  background-color: #3A7BD5;
+}
+.O{
+  background-color: #BFD7ED
+;
+}
+img{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+}
+body{
+  background-color: #0E1626;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
