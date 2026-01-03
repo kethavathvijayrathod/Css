@@ -1,0 +1,80 @@
+.con2{
+  /* border: 2px solid red; */
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 0%;
+  
+
+}
+
+.t{
+  background-color:red;
+  width: 10px;
+  height: 40px;
+  /* transition: all 10s ; */
+  animation-name: a;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  border-radius: 10px;
+  z-index: 3;
+}
+@keyframes a {
+  0%{
+    height: 5px;
+  }
+  50%{
+    height: 100px;
+  }
+  100%{
+     height: 5px;
+  }
+  
+}
+.b{
+  animation-delay:0.1s
+}
+.c{
+  animation-delay:0.4s
+}
+.d{
+  animation-delay:0.3s
+}
+.e{
+  animation-delay:0.1s
+}.f{
+  animation-delay:0.3s
+}
+.g{
+  animation-delay:0.14s
+}
+.container>img{
+  width: 400px;
+  opacity:1; 
+  position: relative;
+  z-index: 2;
+  border : 3px solid navy;
+}
+body{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+body>img{
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: 1;
+  position: absolute;
+  top: 0%;;
+  
+}
+.container{
+  position: relative;
+  margin-top: 200px;
+  
+}
