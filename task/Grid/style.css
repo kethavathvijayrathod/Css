@@ -1,0 +1,30 @@
+.container{
+  /* background-color: rgb(39, 238, 119); */
+  border: 2px solid;
+  display: grid;
+width: 50vw;
+  gap: 10px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(4,100px);
+}
+.container>div{
+  background-color: rgb(74, 240, 74);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.H{
+  grid-column: 1/4;
+}
+.s{
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+.c{
+  grid-column: 2/4;
+}
+.f{
+  grid-column: 1/4;
+}
